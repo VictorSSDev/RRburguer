@@ -1,0 +1,64 @@
+
+* {
+    font-family: 'Alkatra', cursive;
+}
+
+body header {
+    background-color: black;
+}
+
+.container li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Alkatra', cursive;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container li {
+    display: inline;
+    padding: 16px;
+}
+
+.container {
+    
+    margin: 0;
+}
+
+#Sobre header {
+    background-color: gray;
+}
+
+#Contact .container {
+    display: block;
+}
+
+.methods-contact {
+    display: flex;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+#contact {
+    background-color: rgb(192, 187, 187);
+}
